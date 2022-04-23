@@ -197,7 +197,7 @@
   margin-top: 45px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .section3 .vid {
     margin-left: 30px;
     max-width: 320px;
