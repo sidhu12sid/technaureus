@@ -1,0 +1,37 @@
+$background:linear-gradient(to top right, #a34383 50%, #ff00c8 80%);
+$text-color: #141414;
+$div-color: #f7f2e9;
+$form-div-width: 500px;
+$form-div-height: 600px;
+$margin-top:90px;
+$margin-bottom:90px;
+$m-left: auto;
+$m-right: auto;
+$div-padding:80px;
+$div-pad-top: 20px;
+$title-font:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; $font-weight: bolder;
+$font-fam:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    body{
+        background: $background;
+        font-family: $font-fam;
+       
+    }
+
+    .form-container{
+        background-color: $div-color;
+        width: $form-div-width;
+        height: $form-div-height;
+        margin-top: $margin-top;
+        margin-bottom: $margin-bottom;
+        margin-left: $m-left;
+        margin-right: $m-right;
+        padding: $div-padding;
+        padding-top: $div-pad-top;
+        .title{
+            text-align: center;
+            font-family: $title-font;
+            font-weight: $font-weight;
+            padding-top: 10px;
+        }
+    }
+   

@@ -1,0 +1,25 @@
+body {
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #a34383), color-stop(80%, #ff00c8));
+  background: linear-gradient(to top right, #a34383 50%, #ff00c8 80%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+  background-color: #f7f2e9;
+  width: 500px;
+  height: 600px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px;
+  padding-top: 20px;
+}
+
+.form-container .title {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+/*# sourceMappingURL=Q2.css.map */

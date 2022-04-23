@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample form</title>
+</head>
+<body>
+    <form >
+        <table  style="padding: 10px; border-spacing: 8px; margin-left: auto; margin-right: auto">
+            Some Example form 
+            <hr>
+            <tr>
+                <td style="text-align: right;"><label for="name">Name:</label></td>
+                <td><input type="text" id="name" value="John Jones" style="width: 300px; height: 35px;">  </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="street">Street/No.:</label></td>
+                <td><input type="text" id="street" value="Mainstreet" style="width: 200px; height: 35px;">
+                    <input type="text" id="streetno" Value="2265"style="width: 88px; height:35px">
+                </td>
+                <!-- <td><input type="text" id="streetno" Value="2265"style="width: 50px;"></td> -->
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="zipcode">Zipcode/City:</label></td>
+                <td>
+                    <input type="text" value="12345" id="zip" style="width: 90px; height: 35px;">
+                    <input type="text" value="Maintown" id="city" style="width: 198px; height: 35px;">
+                </td>
+                <!-- <td><input type="text" value="Maintown" id="city"></td> -->
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="Country">Country:</label></td>
+                <td>
+                <select id="count" name="country" style="width: 309px; height: 39px;">
+                    <option value="Germany">Germany</option>
+                    <option value="USA">USA</option>
+                    <option value="India">India</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="Purchse">Purchase order:</label></td>
+                <td><input type="text" value="123456789" style="width: 302px; height: 35px;"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><label for="date">Valid from:</label></td>
+                <td><input type="date" id="date" style="width: 226px; height: 35px;">
+                    <input type="time" id="time" style="width: 70px;height: 35px;"></td>
+            </tr>   
+            <tr>
+                <td style="text-align: right;"><label for="Net Value">Net value:</label></td>
+                <td><input type="text" value="$170" style="width: 302px; height: 35px;"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="margin-left: auto; margin-right: auto;">
+                    <button type="submit"  form="form1" value="Submit" style="width: 150px; height: 45px;">Submit</button>   
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

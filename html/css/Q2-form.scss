@@ -1,0 +1,39 @@
+$font-size:16px;
+$font-fam: 'monospace';
+$font-wei: bold;
+$div-pad-top: 10px;
+$feild-width:230px;
+$feild-height:40px;
+$ebox-width:490px;
+$messageheight:100px;
+
+.label{
+    font-size: $font-size;
+    font-family: $font-fam;
+    font-weight: $font-wei;
+}
+.div1{
+    padding-top: $div-pad-top;
+}
+.box
+{
+    width:$feild-width;
+    height: $feild-height;
+    font-size: $font-size;
+}
+.ebox
+{
+    width: $ebox-width;
+    height: $feild-height;
+    font-size: $font-size;
+}
+.pbox{
+    width: $ebox-width;
+    height:$feild-height;
+    font-size: $font-size;
+}
+.message{
+    width:$ebox-width;
+    height: $messageheight;
+    font-size: $font-size;
+}

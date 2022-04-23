@@ -1,0 +1,46 @@
+$margin:0px;
+$margin-lr:auto;
+$position: absolute;
+$top:81%;
+$left:45%;
+$bg-clr: rgb(22, 21, 21);
+$color:rgb(253, 253, 253);
+$padding: 10px 20px;
+$text-align: center;
+$display: inline-block;
+$margin: 4px 2px;
+$cursor: pointer;
+$border: none;
+$border-radius: 30px;
+$width:120px;
+$height:55px;
+$font-size: medium;
+$text-deco:none;
+.button{
+    margin: $margin;
+    margin-left: $margin-lr;
+    margin-right: $margin-lr;
+    position: $position;
+    top: $top;
+    left: $left;
+  }
+  .submit{
+    background-color: $bg-clr;
+    border: $border;
+    color: $color ;
+    padding: $padding;
+    text-align: $text-align;
+    text-decoration: $text-deco;
+    display: $display;
+    margin: $margin;
+    cursor: $cursor;
+    border-radius: $border-radius;
+    width:$width;
+    height:$height;
+    font-size: $font-size;
+
+  }
+  
+  .submit:hover{
+    background-color: rgb(2, 2, 255);
+}

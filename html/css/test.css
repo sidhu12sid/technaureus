@@ -1,0 +1,139 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  max-width: 1336;
+  height: 768;
+  background-color: white;
+  -ms-grid-rows: 40px;
+      grid-template-rows: 40px;
+}
+
+@media screen and (max-width: 390px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+.container .size {
+  width: 90px;
+  height: 90px;
+}
+
+.container .nav {
+  background-color: #8b8888;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 390px) {
+  .container .nav {
+    max-width: 375px;
+    background-color: #8f8a8a;
+  }
+}
+
+.container .nav .c1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 8px;
+}
+
+.container .nav .c2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #48ff00;
+  margin: 8px;
+  margin-left: 7px;
+}
+
+.container .nav .c3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffee00;
+  margin: 8px;
+  margin-left: 9px;
+}
+
+.container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1770px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+  height: 100px;
+  background-color: #ccd1cf;
+}
+
+@media screen and (max-width: 390px) {
+  .container .header {
+    max-width: 485px;
+    margin-left: 0px;
+    display: block;
+    z-index: 5;
+    background-color: #ffff;
+  }
+}
+
+.container .header .div1 {
+  width: 30px;
+  height: 0px;
+  background-color: white;
+  margin-left: 45px;
+  margin-top: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.container .header .div2 {
+  margin-left: 125px;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 390px) {
+  .container .header .div2 {
+    margin-left: 45px;
+    margin-top: 0px;
+  }
+}
+
+.container .header .div3 {
+  margin-left: 75px;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 390px) {
+  .container .header .div3 {
+    margin-left: 45px;
+  }
+}
+
+.container .header .div4 {
+  margin-left: 75px;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 390px) {
+  .container .header .div4 {
+    margin-left: 45px;
+  }
+}
+
+.container .header .div5 {
+  margin-left: 900px;
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 390px) {
+  .container .header .div5 {
+    margin-left: 45px;
+  }
+}
+/*# sourceMappingURL=test.css.map */
