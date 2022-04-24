@@ -1,0 +1,87 @@
+
+//container variables
+$con-width:100%;
+$con-height:990px;
+$con-disp:flex;
+
+.container{
+
+    width:$con-width;
+    height:$con-height;
+    display:$con-disp;
+
+//header variables
+$head-width:100%;
+$head-height:400px;
+$head-bg:pink;
+$head-dis:flex;
+.header{
+    width:$head-width;
+    height:$head-height;
+    background-color: $head-bg;
+    display: $head-dis;
+
+//logo-variables
+$logo-width:150px;
+$logo-height:150px;
+$logo-background:white;
+$logo-margin:25px;
+
+.logo{
+    width:$logo-width;
+    height:$logo-height;
+    background-color: $logo-background;
+    margin: $logo-margin;
+    }
+//optionvariables
+$opt-width:155px;
+$opt-height:15px;
+$opt-mar-lf:500px;
+$opt-mar-top:90px;
+$opt-back:rgb(255, 0, 234);
+    .opt1{
+        width:$opt-width;
+        height:$opt-height;
+        margin-left: $opt-mar-lf;
+        margin-top: $opt-mar-top;
+        background-color: $opt-back;
+    }
+//opt2 variables
+$opt2-mar-l:95px;
+    .opt2{
+        width:$opt-width;
+        height:$opt-height;
+        margin-left: $opt2-mar-l;
+        margin-top: $opt-mar-top;
+        background-color: $opt-back;
+    }
+
+    .opt3{
+        width:$opt-width;
+        height:$opt-height;
+        margin-left: $opt2-mar-l;
+        margin-top: $opt-mar-top;
+        background-color: $opt-back;
+    }
+
+    //opt4 variables
+    $opt4-width:195px;
+    $opt4-height:30px;
+    $opt4-bg:white;
+    $opt4-brdr-rad:15px;
+    $opt4-marg-top:85px;
+    $opt4-marg-lft:160px;
+    .opt4{
+        width:$opt4-width;
+        height: $opt4-height;
+        background-color: $opt4-bg;
+        border-radius: $opt4-brdr-rad;
+        margin-top: $opt4-marg-top;
+        margin-left: $opt4-marg-lft;
+    }
+}
+
+
+
+}
+
