@@ -11,10 +11,10 @@
   grid-column: 0.5;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .section1 {
-    max-width: 485px;
-    margin-left: 20px;
+    max-width: 320px;
+    margin-left: 0px;
     grid-column: 1/-1;
   }
 }
@@ -27,7 +27,7 @@
   margin-top: 40px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .section1 .sqre1 {
     max-width: 320px;
     max-height: 320px;
@@ -45,7 +45,7 @@
   margin-left: 50px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .section1 .rect1 {
     max-width: 300px;
     margin-left: 10px;
@@ -73,11 +73,11 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .section2 {
     max-width: 320px;
-    height: 575px;
-    margin-left: 30px;
+    height: 480px;
+    margin-left: 0px;
     margin-top: 495px;
     grid-column: 1/-1;
     display: -ms-grid;
@@ -90,9 +90,9 @@
   margin-right: 190px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .con1 {
-    margin-left: 130px;
+    margin-left: 110px;
     width: 25px;
   }
 }
@@ -125,9 +125,9 @@
   margin-right: 190px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .con2 {
-    margin-left: 30px;
+    margin-left: 18px;
   }
 }
 
@@ -181,7 +181,7 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .section3 {
     grid-column: 1/-1;
     display: -ms-grid;
@@ -199,8 +199,8 @@
 
 @media screen and (max-width: 320px) {
   .section3 .vid {
-    margin-left: 30px;
-    max-width: 320px;
+    margin-left: 0px;
+    width: 320px;
   }
 }
 
@@ -298,7 +298,7 @@
   grid-column: 0.5;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .section6 {
     display: -ms-grid;
     display: grid;
@@ -314,10 +314,11 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .section6 .form {
-    width: 300px;
+    width: 320px;
     height: 370px;
+    margin-left: 0px;
   }
 }
 
@@ -379,9 +380,9 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .footer {
-    max-width: 375px;
+    max-width: 320px;
     background-color: #c4c2c2;
     border-radius: 10px;
   }

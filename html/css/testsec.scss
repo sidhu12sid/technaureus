@@ -18,9 +18,9 @@ $sec-grf-clm:1/2;
     max-width: $sec-width;
     grid-column: $sec-grf-clm;
 
-    @media screen and (max-width:390px){
-        max-width:485px;
-        margin-left:20px;
+    @media screen and (max-width:320px){
+        max-width:320px;
+        margin-left:0px;
         grid-column:1/-1;
         
     }
@@ -39,7 +39,7 @@ $sq-marg-t:40px;
         margin-left: $sq-margin-l;
         margin-top:$sq-marg-t;
 
-        @media screen and (max-width:390px){
+        @media screen and (max-width:320px){
             max-width:320px;
             max-height: 320px;
             margin-left:auto;
@@ -61,7 +61,7 @@ $re-mar-lft:50px;
       background-color: $re-bg-color;
       margin-top: $re-mar-top;
       margin-left: $re-mar-lft;
-      @media screen and (max-width:390px){
+      @media screen and (max-width:320px){
         max-width:300px;
         margin-left:10px;
         margin-top: 620px;
@@ -91,10 +91,10 @@ $re-mar-lft:50px;
     display: $sec2-display;
     margin-left: auto;
     margin-right: auto;
-    @media screen and (max-width:390px){
+    @media screen and (max-width:320px){
         max-width:320px;
-        height: 575px;
-        margin-left:30px;
+        height: 480px;
+        margin-left:0px;
         margin-top: 495px;
         grid-column:1/-1;
         display: grid;
@@ -110,9 +110,9 @@ $con-mar1:150px;
         margin-left: $con-mar1;
         margin-right: $con-mar;
 
-        @media screen and (max-width:390px){
+        @media screen and (max-width:320px){
 
-            margin-left: 130px;
+            margin-left: 110px;
             width:25px
         }
 
@@ -162,9 +162,9 @@ $cir2m-r:15px;
         margin-left: $con-mar;
         margin-right: $con-mar;
 
-        @media screen and (max-width:390px){
+        @media screen and (max-width:320px){
 
-            margin-left: 30px;
+            margin-left: 18px;
             
         }
         
@@ -227,7 +227,7 @@ $sec3mar-r:auto;
     margin-left: $sec3mar-l;
     margin-right: $sec3mar-r;
     
-    @media screen and (max-width:390px){
+    @media screen and (max-width:320px){
         grid-column:1/-1;
         display: grid;
         
@@ -248,8 +248,8 @@ $sec3mar-r:auto;
     margin-top : $vid-margin-top;
 
     @media screen and (max-width:320px){
-        margin-left: 30px;
-        max-width: 320px;
+        margin-left: 0px;
+        width: 320px;
         // display: grid;
         // grid-row: 1/-1;
         
@@ -393,7 +393,7 @@ $fm-bg:rgb(202, 200, 200);
 $fm-width:450px;
 $fm-height:500px;
 $fm-margin:auto;
-@media screen and (max-width:390px){
+@media screen and (max-width:320px){
     display: grid;
     grid-column: 1/-1;
 }
@@ -404,9 +404,10 @@ $fm-margin:auto;
     height:$fm-height;
     margin-left: $fm-margin;
     margin-right: $fm-margin;
-    @media screen and(max-width:390px) {
-        width:300px;
-        height:370px
+    @media screen and(max-width:320px) {
+        width:320px;
+        height:370px;
+        margin-left: 0px;
         
     }
 
@@ -493,8 +494,8 @@ $ab-height:270px;
             margin-top: $f-marg-top;
             margin-left: $f-marg;
             margin-right: $f-marg;
-            @media screen and (max-width:390px){
-                max-width:375px;
+            @media screen and (max-width:320px){
+                max-width:320px;
                 background-color: rgb(196, 194, 194);
                 border-radius: 10px;
                 

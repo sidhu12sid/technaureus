@@ -1,16 +1,22 @@
+body {
+  overflow-x: hidden !important;
+  width: 340px;
+}
+
 .container {
   display: -ms-grid;
   display: grid;
-  max-width: 1336;
+  width: 100%;
   height: 768;
   background-color: white;
   -ms-grid-rows: 40px;
       grid-template-rows: 40px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .container {
-    max-width: 320px;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
   }
 }
 
@@ -25,11 +31,12 @@
   display: -ms-flexbox;
   display: flex;
   border-radius: 6px;
+  max-width: 100%;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .container .nav {
-    max-width: 375px;
+    max-width: 320px;
     background-color: #8f8a8a;
   }
 }
@@ -72,9 +79,9 @@
   background-color: #ccd1cf;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .container .header {
-    max-width: 485px;
+    max-width: 320px;
     margin-left: 0px;
     display: block;
     z-index: 5;
@@ -97,7 +104,7 @@
   margin-top: 45px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .container .header .div2 {
     margin-left: 45px;
     margin-top: 0px;
@@ -109,7 +116,7 @@
   margin-top: 45px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .container .header .div3 {
     margin-left: 45px;
   }
@@ -120,7 +127,7 @@
   margin-top: 45px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .container .header .div4 {
     margin-left: 45px;
   }
@@ -131,7 +138,7 @@
   margin-top: 45px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
   .container .header .div5 {
     margin-left: 45px;
   }

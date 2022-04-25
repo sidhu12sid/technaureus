@@ -1,6 +1,10 @@
+body {
+    overflow-x: hidden !important;
+    width:340px;
+}
 //container
 $con-display:grid;
-$con-width:1336;
+$con-width:100%;
 $con-height:768;
 $con-bg:rgb(255, 255, 255);
 $grid-rows:40px;
@@ -17,12 +21,13 @@ $c3-margin-l:9px;
 
 .container{
     display: $con-display;
-    max-width:$con-width;
+    width:$con-width;
     height:$con-height;
     background-color: $con-bg;  
     grid-template-rows: $grid-rows;
-    @media screen and (max-width:390px){
-       max-width:320px;
+    @media screen and (max-width:320px){
+    max-width: 100% !important;
+    overflow-x: hidden !important;
         
  
 }
@@ -41,9 +46,10 @@ $nav-border-radius:6px;
     background-color: $nav-bg;
     display: $nav-display;
     border-radius:$nav-border-radius;
+    max-width:100%;
 
-    @media screen and (max-width:390px){
-        max-width:375px;
+    @media screen and (max-width:320px){
+        max-width:320px;
         background-color: rgb(143, 138, 138);
         
     }
@@ -87,8 +93,8 @@ $h-m-t:7px;
     margin-top: $h-m-t;
     height:$h-height;
     background-color: $h-backg;
-    @media screen and (max-width:390px){
-        max-width:485px;
+    @media screen and (max-width:320px){
+        max-width:320px;
         margin-left:0px;
         display: block;
         z-index: 5;
@@ -127,7 +133,7 @@ $d2mar-t:45px;
         // background-color: $d1-bg;
         margin-left: $d2mar-l;
         margin-top: $d2mar-t;
-          @media screen and (max-width:390px){
+          @media screen and (max-width:320px){
             margin-left: 45px;
             margin-top: 0px;
         }
@@ -144,7 +150,7 @@ $d3mar-t:45px;
         margin-left: $d3mar-l;
         margin-top: $d3mar-t;
 
-        @media screen and (max-width:390px){
+        @media screen and (max-width:320px){
             margin-left: 45px;
         }
        
@@ -159,7 +165,7 @@ $d4mar-t:45px;
         margin-left: $d4mar-l;
         margin-top: $d4mar-t;
 
-        @media screen and (max-width:390px){
+        @media screen and (max-width:320px){
             margin-left: 45px;
         }
        
@@ -175,7 +181,7 @@ $d5mar-t:45px;
         margin-left: $d5mar-l;
         margin-top: $d5mar-t;
 
-        @media screen and (max-width:390px){
+        @media screen and (max-width:320px){
             margin-left: 45px;
             
         }
