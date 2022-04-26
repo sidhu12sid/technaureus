@@ -14,7 +14,6 @@
 @media screen and (max-width: 320px) {
   .section1 {
     max-width: 320px;
-    margin-left: 0px;
     grid-column: 1/-1;
   }
 }
@@ -190,7 +189,7 @@
 }
 
 .section3 .vid {
-  width: 450px;
+  width: px;
   height: 300px;
   margin-left: 400px;
   margin-right: 400px;

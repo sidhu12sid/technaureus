@@ -20,7 +20,7 @@ $sec-grf-clm:1/2;
 
     @media screen and (max-width:320px){
         max-width:320px;
-        margin-left:0px;
+        
         grid-column:1/-1;
         
     }
@@ -235,7 +235,7 @@ $sec3mar-r:auto;
     }
 
     //videoplayer
-    $vid-width:450px;
+    $vid-width:px;
     $vid-height:300px;
     $vid-margin-left:400px;
     $vid-margin-right:400px;

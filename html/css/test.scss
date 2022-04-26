@@ -1,7 +1,4 @@
-body {
-    overflow-x: hidden !important;
-    width:340px;
-}
+
 //container
 $con-display:grid;
 $con-width:100%;
@@ -25,9 +22,7 @@ $c3-margin-l:9px;
     height:$con-height;
     background-color: $con-bg;  
     grid-template-rows: $grid-rows;
-    @media screen and (max-width:320px){
-    max-width: 100% !important;
-    overflow-x: hidden !important;
+    
         
  
 }
@@ -188,5 +183,4 @@ $d5mar-t:45px;
 
     }
 
-}
 }
