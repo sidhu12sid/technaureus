@@ -1,0 +1,2 @@
+<!ELEMENT Q4 (message)>
+<!ELEMENT message (#PCDATA)>

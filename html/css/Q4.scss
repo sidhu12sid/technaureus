@@ -2,16 +2,13 @@
 @import "../node_modules/bootstrap/scss/functions";
 $enable-gradients:true;
 $enable-grid-classes:true;
-
+$clr:#f9758c;
 
 
 .navbar{
     background-color: #faecec;
 }
-//  .col{
-//     //  background-color:blue;
-//     //  border: 2px solid rgb(197, 22, 22);
-//  }
+
 
 .div1{
     background-color: #faecec;
@@ -37,4 +34,17 @@ $enable-grid-classes:true;
     width:150px;
     height:30px;
     margin-left: 33%;
+    @include media-breakpoint-down(sm){
+        display: none;
+    }
+}
+
+.div2{
+    background-color: #fcc1c4;
+    height:350px;   
+}
+
+p{
+    background-color: $clr;
+    margin:70px;
 }

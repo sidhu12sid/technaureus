@@ -11984,4 +11984,20 @@ fieldset:disabled .btn {
   height: 30px;
   margin-left: 33%;
 }
+
+@media (max-width: 575.98px) {
+  .b1 {
+    display: none;
+  }
+}
+
+.div2 {
+  background-color: #fcc1c4;
+  height: 350px;
+}
+
+p {
+  background-color: #f9758c;
+  margin: 70px;
+}
 /*# sourceMappingURL=Q4.css.map */
