@@ -1,22 +1,40 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+$enable-gradients:true;
+$enable-grid-classes:true;
 
 
 
 .navbar{
-    background-color: rgb(255, 212, 255);
+    background-color: #faecec;
 }
-
+//  .col{
+//     //  background-color:blue;
+//     //  border: 2px solid rgb(197, 22, 22);
+//  }
 
 .div1{
-    background-color: rgb(255, 212, 255);
+    background-color: #faecec;
     text-align:center;
     height: 250px;
 
 }
 
-
-
 .img1{
-    width: 180px;
-    height:180px
+    width: 140px;
+    height:140px
+}
+
+
+.img{
+    width:90px;
+    height:90px;
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+.b1{
+    width:150px;
+    height:30px;
+    margin-left: 33%;
 }
