@@ -9,6 +9,14 @@ $clr:#f9758c;
    background-color: #faecec;
 }
 
+.li{
+    margin-left: 285px;
+
+    @include media-breakpoint-down(lg)
+    {
+        margin-left:0px
+    }
+}
 
 .div1{
     background-color: #faecec;
@@ -24,37 +32,70 @@ $clr:#f9758c;
 
 .img2{
     width: 140px;
-    height:140px;
-    margin-left: 40%;
-    margin-top: 30px;
+    height:185px;
+    margin-left: 50%;
+    margin-top: 75px;
+    @include media-breakpoint-down(lg){
+       display:none    
+    }
 }
 
 .img{
     width:90px;
     height:90px;
-    margin-left: 40%;
-    margin-top: 30px;
+    margin-left:40%;
+    margin-top: auto;
+    @include media-breakpoint-between(sm,md){
+        margin-left:20px;  
+        margin-top :30px      
+    } 
 }
+
+
 
 .b1{
     width:150px;
     height:30px;
     margin-left: 33%;
     @include media-breakpoint-down(sm){
-        display: none;
+        width:70px;
+        height:10px;
+        margin-left:10px;
     }
+     
 }
 
 .div2{
     background-color: #fcc1c4;
-    height:300px;   
+    height:300px; 
+    @include media-breakpoint-down(lg){
+        height:400px;
+    }  
 }
 
-p{
+.p{
     background-color: $clr;
-    margin:70px;
+    margin:50px;
+        @include media-breakpoint-down(lg){
+            display:inline-block;
+        }
 }
 
 .foot{
     background-color: #ffffff;
 }
+
+#hed{
+    text-align:center;
+    margin-top:50px;  
+    text-align: left;
+    width: 450px;
+    margin:50px;
+    @include media-breakpoint-down(sm){
+        width:270px;
+        margin:20px;
+    }
+
+}
+
+
