@@ -11972,6 +11972,13 @@ fieldset:disabled .btn {
   height: 140px;
 }
 
+.img2 {
+  width: 140px;
+  height: 140px;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
 .img {
   width: 90px;
   height: 90px;
@@ -11993,7 +12000,7 @@ fieldset:disabled .btn {
 
 .div2 {
   background-color: #fcc1c4;
-  height: 350px;
+  height: 200px;
 }
 
 p {
