@@ -12000,11 +12000,15 @@ fieldset:disabled .btn {
 
 .div2 {
   background-color: #fcc1c4;
-  height: 200px;
+  height: 300px;
 }
 
 p {
   background-color: #f9758c;
   margin: 70px;
+}
+
+.foot {
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=Q4.css.map */
