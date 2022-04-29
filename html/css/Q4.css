@@ -11962,7 +11962,8 @@ fieldset:disabled .btn {
 }
 
 .li {
-  margin-left: 285px;
+  margin-left: 600px;
+  float: right;
 }
 
 @media (max-width: 991.98px) {
@@ -11978,12 +11979,12 @@ fieldset:disabled .btn {
 }
 
 .img1 {
-  width: 140px;
-  height: 140px;
+  width: 80px;
+  height: 80px;
 }
 
 .img2 {
-  width: 140px;
+  width: 145px;
   height: 200px;
   float: none;
   margin-top: 45px;

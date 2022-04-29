@@ -13,10 +13,11 @@ $nav-clr:#faecec;
 
 //first list-navbar
 
-$ml1:285px;
+$ml1:600px;
 $ml2:0px;
 .li{
     margin-left: $ml1;
+    float:right;    
 
     @include media-breakpoint-down(lg)
     {
@@ -34,19 +35,20 @@ $d1-height:250px;
 
 }
 //img1
-$img1-wid:140px;
-$img1-height:140px;
+$img1-wid:80px;
+$img1-height:80px;
 .img1{
     width:$img1-wid;
     height:$img1-height;
 }
 //img2
 $img2-height:200px;
+$img2-width:145px;
 $img2-float:none;
 $img2-mt:45px;
 $img2-ml:100px;
 .img2{
-    width: $img1-wid;
+    width: $img2-width;
     height:$img2-height;
     float:$img2-float;
     margin-top: $img2-mt;
