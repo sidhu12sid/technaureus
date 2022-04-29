@@ -4,37 +4,48 @@ $enable-gradients:true;
 $enable-grid-classes:true;
 $clr:#f9758c;
 
+//navbar
+$nav-clr:#faecec;
 
 .navbar{
-   background-color: #faecec;
+   background-color:$nav-clr ;
 }
 
+//first list-navbar
+
+$ml1:285px;
+$ml2:0px;
 .li{
-    margin-left: 285px;
+    margin-left: $ml1;
 
     @include media-breakpoint-down(lg)
     {
-        margin-left:0px
+        margin-left:$ml2;
     }
 }
-
+//div1
+$d1-bg: #faecec;
+$d1-align:center;
+$d1-height:250px;
 .div1{
-    background-color: #faecec;
-    text-align:center;
-    height: 250px;
+    background-color:$d1-bg;
+    text-align:$d1-align;
+    height:$d1-height;
 
 }
-
+//img1
+$img1-wid:140px;
+$img1-height:140px;
 .img1{
-    width: 140px;
-    height:140px
+    width:$img1-wid;
+    height:$img1-height;
 }
-
+//img2
+$img2-height:185px;
 .img2{
-    width: 140px;
-    height:185px;
-    margin-left: 50%;
-    margin-top: 75px;
+    width: $img1-wid;
+    height:$img2-height;
+    
     @include media-breakpoint-down(lg){
        display:none    
     }
@@ -42,11 +53,37 @@ $clr:#f9758c;
 
 .img{
     width:90px;
-    height:90px;
-    margin-left:40%;
+    height:90px;  
     margin-top: auto;
-    @include media-breakpoint-between(sm,md){
-        margin-left:20px;  
+
+    @include media-breakpoint-between(xs,sm){
+        margin-left:auto;
+        margin-right:auto;  
+        margin-top :30px      
+    } 
+}
+
+.img3{
+    width:90px;
+    height:90px; 
+    margin-top: auto;
+
+    @include media-breakpoint-between(xs,sm){
+        margin-left:auto;
+        margin-right:auto;   
+        margin-top :30px      
+    } 
+}
+
+.img11{
+    width:90px;
+    height:90px;
+    margin-top: auto;
+    
+
+    @include media-breakpoint-between(xs,sm){
+        margin-left:auto;
+        margin-right:auto;    
         margin-top :30px      
     } 
 }
@@ -55,12 +92,12 @@ $clr:#f9758c;
 
 .b1{
     width:150px;
-    height:30px;
-    margin-left: 33%;
-    @include media-breakpoint-down(sm){
+    height:30px;  
+    @include media-breakpoint-between(xs,sm){
         width:70px;
         height:10px;
-        margin-left:10px;
+        margin-left:auto;
+        margin-right:auto;  
     }
      
 }
@@ -96,6 +133,10 @@ $clr:#f9758c;
         margin:20px;
     }
 
+}
+
+.li4{
+    float: right;
 }
 
 

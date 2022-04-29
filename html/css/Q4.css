@@ -11985,8 +11985,6 @@ fieldset:disabled .btn {
 .img2 {
   width: 140px;
   height: 185px;
-  margin-left: 50%;
-  margin-top: 75px;
 }
 
 @media (max-width: 991.98px) {
@@ -11998,13 +11996,41 @@ fieldset:disabled .btn {
 .img {
   width: 90px;
   height: 90px;
-  margin-left: 40%;
   margin-top: auto;
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   .img {
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+}
+
+.img3 {
+  width: 90px;
+  height: 90px;
+  margin-top: auto;
+}
+
+@media (max-width: 575.98px) {
+  .img3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+  }
+}
+
+.img11 {
+  width: 90px;
+  height: 90px;
+  margin-top: auto;
+}
+
+@media (max-width: 575.98px) {
+  .img11 {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
   }
 }
@@ -12012,14 +12038,14 @@ fieldset:disabled .btn {
 .b1 {
   width: 150px;
   height: 30px;
-  margin-left: 33%;
 }
 
 @media (max-width: 575.98px) {
   .b1 {
     width: 70px;
     height: 10px;
-    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -12062,5 +12088,9 @@ fieldset:disabled .btn {
     width: 270px;
     margin: 20px;
   }
+}
+
+.li4 {
+  float: right;
 }
 /*# sourceMappingURL=Q4.css.map */
