@@ -41,102 +41,133 @@ $img1-height:140px;
     height:$img1-height;
 }
 //img2
-$img2-height:185px;
+$img2-height:200px;
+$img2-float:none;
+$img2-mt:45px;
+$img2-ml:100px;
 .img2{
     width: $img1-wid;
     height:$img2-height;
-    
+    float:$img2-float;
+    margin-top: $img2-mt;
+    margin-left:$img2-ml;
+
     @include media-breakpoint-down(lg){
        display:none    
     }
 }
-
+//img
+$img-width:90px;
+$img-height:90px;
+$mt:auto;
 .img{
-    width:90px;
-    height:90px;  
-    margin-top: auto;
+    width:$img-width;
+    height:$img-height;  
+    margin-top: $mt;
 
-    @include media-breakpoint-between(xs,sm){
-        margin-left:auto;
-        margin-right:auto;  
+    @include media-breakpoint-between(xs,sm){ 
         margin-top :30px      
     } 
 }
 
 .img3{
-    width:90px;
-    height:90px; 
-    margin-top: auto;
+    width:$img-width;
+    height:$img-height; 
+    margin-top: $mt;
 
-    @include media-breakpoint-between(xs,sm){
-        margin-left:auto;
-        margin-right:auto;   
+    @include media-breakpoint-between(xs,sm){   
         margin-top :30px      
     } 
 }
 
 .img11{
-    width:90px;
-    height:90px;
-    margin-top: auto;
+    width:$img-width;
+    height:$img-height;
+    margin-top: $mt;
     
 
-    @include media-breakpoint-between(xs,sm){
-        margin-left:auto;
-        margin-right:auto;    
+    @include media-breakpoint-between(xs,sm){    
         margin-top :30px      
     } 
 }
 
-
+//buttons
+$b-width:150px;
+$b-height:30px;
+//breakpoint buttons
+$br-b1-width:70px;
+$br-b1-height:10px;
 
 .b1{
-    width:150px;
-    height:30px;  
+    width:$b-width;
+    height:$b-height;  
     @include media-breakpoint-between(xs,sm){
-        width:70px;
-        height:10px;
-        margin-left:auto;
-        margin-right:auto;  
+        width:$br-b1-width;
+        height:$br-b1-height;
+        margin-left:$mt;
+        margin-right:$mt;  
     }
      
 }
 
+
+//div2
+$d2-bg:#fcc1c4;
+$d2-height:300px;
+
 .div2{
-    background-color: #fcc1c4;
-    height:300px; 
+    background-color: $d2-bg;
+    height:$d2-height; 
+//breakpoint-height-div2
+$d2-br-height:400px;
     @include media-breakpoint-down(lg){
-        height:400px;
+        height:$d2-br-height;
     }  
 }
+//paragraph
+
+$margin:50px;
 
 .p{
     background-color: $clr;
-    margin:50px;
+    margin:$margin;
+
         @include media-breakpoint-down(lg){
             display:inline-block;
         }
 }
+//foot
+$f-bg: #ffffff;
 
 .foot{
-    background-color: #ffffff;
+    background-color:$f-bg;
 }
 
+//div2 heading
+$align:left;
+$mar:50px;
+$wid:450px;
+
 #hed{
-    text-align:center;
-    margin-top:50px;  
-    text-align: left;
-    width: 450px;
-    margin:50px;
+    margin-top:$mar;  
+    text-align: $align;
+    width: $wid;
+    margin:$mar;
+
+//breakpoints
+$br-width:270px;
+$br-margin:20px;
     @include media-breakpoint-down(sm){
-        width:270px;
-        margin:20px;
+        width:$br-width;
+        margin:$br-margin;
     }
 
 }
+//li4
+$float:right;
 
 .li4{
-    float: right;
+    float: $float;
 }
 
 
