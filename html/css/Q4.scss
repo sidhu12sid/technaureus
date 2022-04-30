@@ -8,12 +8,12 @@ $clr:#f9758c;
 $nav-clr:#faecec;
 
 .navbar{
-   background-color:$nav-clr ;
+   background-color:$nav-clr ; 
 }
 
 //first list-navbar
 
-$ml1:600px;
+$ml1:550px;
 $ml2:0px;
 .li{
     margin-left: $ml1;
@@ -27,7 +27,7 @@ $ml2:0px;
 //div1
 $d1-bg: #faecec;
 $d1-align:center;
-$d1-height:250px;
+$d1-height:200px;
 .div1{
     background-color:$d1-bg;
     text-align:$d1-align;
@@ -68,7 +68,7 @@ $mt:auto;
     margin-top: $mt;
 
     @include media-breakpoint-between(xs,sm){ 
-        margin-top :30px      
+        margin-top :25px      
     } 
 }
 
@@ -77,8 +77,9 @@ $mt:auto;
     height:$img-height; 
     margin-top: $mt;
 
-    @include media-breakpoint-between(xs,sm){   
-        margin-top :30px      
+    @include media-breakpoint-between(xs,md){   
+        margin-top :30px;
+        display:none;   
     } 
 }
 
@@ -88,8 +89,9 @@ $mt:auto;
     margin-top: $mt;
     
 
-    @include media-breakpoint-between(xs,sm){    
-        margin-top :30px      
+    @include media-breakpoint-between(xs,md){    
+        margin-top :30px ;
+        display:none;    
     } 
 }
 
@@ -100,22 +102,31 @@ $b-height:30px;
 $br-b1-width:70px;
 $br-b1-height:10px;
 
+.b{
+    width:$b-width;
+    height:$b-height; 
+    @include media-breakpoint-between(xs,md){
+        margin-top:0px
+    }
+}
+
 .b1{
     width:$b-width;
     height:$b-height;  
-    @include media-breakpoint-between(xs,sm){
+    @include media-breakpoint-between(xs,md){
         width:$br-b1-width;
         height:$br-b1-height;
         margin-left:$mt;
         margin-right:$mt;  
+        display:none;
     }
      
 }
 
 
 //div2
-$d2-bg:#fcc1c4;
-$d2-height:300px;
+$d2-bg:hsl(357, 91%, 87%);
+$d2-height:350px;
 
 .div2{
     background-color: $d2-bg;
@@ -171,5 +182,6 @@ $float:right;
 .li4{
     float: $float;
 }
+
 
 

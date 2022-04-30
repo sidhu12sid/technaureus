@@ -11962,7 +11962,7 @@ fieldset:disabled .btn {
 }
 
 .li {
-  margin-left: 600px;
+  margin-left: 550px;
   float: right;
 }
 
@@ -11975,7 +11975,7 @@ fieldset:disabled .btn {
 .div1 {
   background-color: #faecec;
   text-align: center;
-  height: 250px;
+  height: 200px;
 }
 
 .img1 {
@@ -12005,7 +12005,7 @@ fieldset:disabled .btn {
 
 @media (max-width: 575.98px) {
   .img {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 }
 
@@ -12015,9 +12015,10 @@ fieldset:disabled .btn {
   margin-top: auto;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .img3 {
     margin-top: 30px;
+    display: none;
   }
 }
 
@@ -12027,9 +12028,21 @@ fieldset:disabled .btn {
   margin-top: auto;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .img11 {
     margin-top: 30px;
+    display: none;
+  }
+}
+
+.b {
+  width: 150px;
+  height: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .b {
+    margin-top: 0px;
   }
 }
 
@@ -12038,18 +12051,19 @@ fieldset:disabled .btn {
   height: 30px;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .b1 {
     width: 70px;
     height: 10px;
     margin-left: auto;
     margin-right: auto;
+    display: none;
   }
 }
 
 .div2 {
-  background-color: #fcc1c4;
-  height: 300px;
+  background-color: #fcc0c3;
+  height: 350px;
 }
 
 @media (max-width: 991.98px) {
