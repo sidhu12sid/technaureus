@@ -33,6 +33,11 @@ $d1-height:200px;
     text-align:$d1-align;
     height:$d1-height;
 
+   
+
+
+  
+
 }
 //img1
 $img1-wid:80px;
@@ -55,7 +60,7 @@ $img2-ml:100px;
     margin-left:$img2-ml;
 
     @include media-breakpoint-down(lg){
-       display:none    
+                 display: none;
     }
 }
 //img
@@ -67,8 +72,8 @@ $mt:auto;
     height:$img-height;  
     margin-top: $mt;
 
-    @include media-breakpoint-between(xs,sm){ 
-        margin-top :25px      
+    @include media-breakpoint-down(md){ 
+        margin-top :25px; 
     } 
 }
 
@@ -77,23 +82,17 @@ $mt:auto;
     height:$img-height; 
     margin-top: $mt;
 
-    @include media-breakpoint-between(xs,md){   
-        margin-top :30px;
-        display:none;   
-    } 
+    @include media-breakpoint-down(md){ 
+        margin-top :25px;  
+    }  
 }
 
 .img11{
     width:$img-width;
     height:$img-height;
     margin-top: $mt;
-    
-
-    @include media-breakpoint-between(xs,md){    
-        margin-top :30px ;
-        display:none;    
-    } 
 }
+
 
 //buttons
 $b-width:150px;
@@ -118,7 +117,7 @@ $br-b1-height:10px;
         height:$br-b1-height;
         margin-left:$mt;
         margin-right:$mt;  
-        display:none;
+            
     }
      
 }
@@ -181,7 +180,15 @@ $float:right;
 
 .li4{
     float: $float;
+}   
+.div00{
+
+    max-width:50%;
+
+    @include media-breakpoint-between(sm,md){
+        max-width:50%;
+
+        
+    }
 }
-
-
 

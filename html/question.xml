@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="question.xsd"?>
 <note>
 <h>
     Welcome to the webpage
@@ -8,7 +7,10 @@
     I come to bury Caesar, not to praise him.
     The evil that men do lives after them;
     The good is oft interred with their bones;
-    So let it be with Caesar. The noble Brutus
-    
+    So let it be with Caesar. The noble Brutus 
 </p>
+<l1>Home</l1>
+<l2>About Us</l2>
+<l3>Contact Us</l3>
+<h2>WELCOME TO OUR WEBPAGE</h2>
 </note>

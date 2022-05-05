@@ -12003,7 +12003,7 @@ fieldset:disabled .btn {
   margin-top: auto;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .img {
     margin-top: 25px;
   }
@@ -12017,8 +12017,7 @@ fieldset:disabled .btn {
 
 @media (max-width: 767.98px) {
   .img3 {
-    margin-top: 30px;
-    display: none;
+    margin-top: 25px;
   }
 }
 
@@ -12026,13 +12025,6 @@ fieldset:disabled .btn {
   width: 90px;
   height: 90px;
   margin-top: auto;
-}
-
-@media (max-width: 767.98px) {
-  .img11 {
-    margin-top: 30px;
-    display: none;
-  }
 }
 
 .b {
@@ -12057,7 +12049,6 @@ fieldset:disabled .btn {
     height: 10px;
     margin-left: auto;
     margin-right: auto;
-    display: none;
   }
 }
 
@@ -12103,5 +12094,15 @@ fieldset:disabled .btn {
 
 .li4 {
   float: right;
+}
+
+.div00 {
+  max-width: 50%;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .div00 {
+    max-width: 50%;
+  }
 }
 /*# sourceMappingURL=Q4.css.map */
