@@ -1,7 +1,9 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/bootstrap/scss/functions";
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import "../fontawesome/scss/fontawesome.scss";
+@import "../fontawesome/scss/solid.scss";
+@import "../fontawesome/scss/brands.scss";
+
 
 .navbar-brand{
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -21,7 +23,22 @@
     color: grey;
 }
 
-.heading::before{
-    content: '\f1b0';
-    position:absolute
+.btn-block::before{
+    font-family: "FontAwesome";
+    content:"\f1b0";
+    position:relative;
+}
+.icon-paw::before{
+    font-family: "FontAwesome";
+    content:"\f1b0";
+    transform:rotate(45deg);
+}
+
+.img-fluid{
+    max-width:100%;
+    height:auto
+}
+img{
+    vertical-align:middle;
+    
 }
