@@ -1,0 +1,232 @@
+@import url(/home/sid/Desktop/Question 5/node_modules/owl.carousel/dist/assets/owl.carousel.css);
+.block-testimony-1 {
+  padding: 20px;
+}
+
+.block-testimony-1 figure {
+  position: relative;
+  padding-top: 20px;
+}
+
+.block-testimony-1 img {
+  max-width: 100px;
+  border: 10px solid #a2c0be;
+  display: block;
+}
+
+.block-testimony-1 h3 {
+  font-size: 18px;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.block-testimony-1 blockquote {
+  background-color: #a2c0be;
+  padding: 30px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 7px;
+  color: #000;
+  font-family: "Vollkorn",serif;
+  position: relative;
+  -webkit-box-shadow: 0 5px 20px -5px black;
+          box-shadow: 0 5px 20px -5px black;
+}
+
+.block-testimony-1 blockquote p {
+  color: #000;
+}
+
+.block-testimony-1 blockquote::before {
+  border-color: rgba(11, 211, 198, 0);
+  border-top-color: #a2c0be;
+  border-width: 15px;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-top: 15px solid #a2c0be;
+  margin-left: -15px;
+  top: 100%;
+  left: 48%;
+  content: " ";
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  pointer-events: none;
+}
+
+.owl-carousal {
+  display: block;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.owl-carousal .owl-loaded {
+  display: block;
+}
+
+.owl-carousal .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+}
+
+.owl-carousal .owl-stage {
+  position: relative;
+}
+
+.owl-carousal .owl-item {
+  float: left;
+}
+
+.block-13 .owl-nav {
+  position: absolute;
+  bottom: -50  px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.block-13 .owl-prev {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  font-size: 40px;
+  color: #000;
+  cursor: pointer;
+  margin-right: 35px;
+}
+
+.block-13 .owl-next {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  font-size: 40px;
+  color: #000;
+  cursor: pointer;
+}
+
+.photo-gallery .gal-item {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.block-service img {
+  max-width: 100px;
+  margin: 10px;
+}
+
+.contact-section .addr-1::before {
+  content: "\f3c5";
+  font-family: "FontAwesome";
+  color: #a2c0be;
+  position: absolute;
+  left: 0;
+}
+
+.contact-section .phone::before {
+  content: "\f095";
+  font-family: "FontAwesome";
+  color: #a2c0be;
+  position: absolute;
+  left: 0;
+}
+
+.contact-section .mail::before {
+  content: "\f0e0";
+  font-family: "FontAwesome";
+  color: #a2c0be;
+  position: absolute;
+  left: 0;
+}
+
+.contact-section li {
+  position: relative;
+  padding-left: 40px;
+}
+
+.site-footer .footer-heading {
+  font-size: 16px;
+  color: white;
+}
+
+.site-footer .icon-fb::before {
+  content: "\f39e";
+  font-family: "FontAwesome";
+  color: #a7a4a4;
+}
+
+.site-footer .icon-in::before {
+  content: "\f16d";
+  font-family: "FontAwesome";
+  color: #a7a4a4;
+}
+
+.site-footer .icon-twit::before {
+  content: "\f099";
+  font-family: "FontAwesome";
+  color: #a7a4a4;
+}
+
+.site-footer .icon-link::before {
+  content: "\f0e1";
+  font-family: "FontAwesome";
+  color: #a7a4a4;
+}
+
+.block-11 .accordion-item {
+  border: none;
+}
+
+.block-11 .accordion-item .heading > a[aria-expanded="true"]::before {
+  font-family: "FontAwesome";
+  position: absolute;
+  content: "\f1b0";
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  background-color: #a2c0be;
+  color: #ffff;
+  border: 1px solid white;
+}
+
+.block-11 .accordion-item .heading > a[aria-expanded="false"]::before {
+  font-family: "FontAwesome";
+  position: absolute;
+  content: "\f1b0";
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+  color: #ccc;
+  border: 1px solid #ccc;
+}
+
+.block-11 .accordion-item .heading > a::before {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  line-height: 27px;
+  border: 1px solid #a2c0be;
+  text-align: center;
+  font-size: 18px;
+  top: -0.7px;
+  left: 0;
+  border-radius: 50%;
+  color: #a2c0be;
+  background-color: white;
+}
+
+.block-11 .accordion-item .heading > a {
+  color: black;
+  position: relative;
+  padding-left: 45px;
+}
+
+.block-11 .accordion-item .body-text {
+  font-size: 16px;
+  padding: 5px 0;
+  padding-left: 45px;
+}
+
+.block-11 .accordion-item .btn-block {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=Q55.css.map */
