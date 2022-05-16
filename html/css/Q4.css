@@ -11997,39 +11997,38 @@ fieldset:disabled .btn {
   }
 }
 
-.img {
-  width: 90px;
-  height: 90px;
-  margin-top: auto;
-}
-
-@media (max-width: 767.98px) {
-  .img {
-    margin-top: 25px;
+@media (max-width: 991.98px) {
+  .d-img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-.img3 {
+.d-img .imgp {
   width: 90px;
   height: 90px;
-  margin-top: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (max-width: 767.98px) {
-  .img3 {
-    margin-top: 25px;
+@media (max-width: 991.98px) {
+  .d-img .imgp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
   }
-}
-
-.img11 {
-  width: 90px;
-  height: 90px;
-  margin-top: auto;
 }
 
 .b {
   width: 150px;
   height: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 767.98px) {
@@ -12103,6 +12102,18 @@ fieldset:disabled .btn {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .div00 {
     max-width: 50%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .b {
+    width: 125px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=Q4.css.map */
